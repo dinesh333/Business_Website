@@ -1,0 +1,199 @@
+/*
+*********************************
+* =miscellaneous 
+*********************************
+*/
+
+.container_24 {
+	margin-top: 10px;
+}
+
+blockquote, blockquote p {
+	font-size: 15px;
+	line-height: 20px;
+	font-style: italic;
+	color: #0e0e0e;
+}
+
+p {
+	font-size: 13px;
+	line-height: 20px;
+	color: #353535;
+}
+
+h1, h3 {
+	letter-spacing: -1px;
+}
+
+h3 {
+	font-size: 26px;
+	text-transform: lowercase;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	line-height: 1em;
+}
+
+a {
+	color: #7e7e7e;
+	text-decoration: none;
+}
+
+a:hover, .selected {
+	color: black;
+}
+
+li {
+	margin-left: 24px;
+}
+
+.button {
+	background: #242324;
+	padding: 6px;
+	color: white;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.button:hover {
+	background: black;
+	color: white;
+}
+
+/*
+*********************************
+* =Header 
+*********************************
+*/
+
+header {
+	overflow: hidden;
+}
+
+header h1 {
+	background: url(../img/21img.png) no-repeat;
+	text-indent: 0px;
+	width: 174px;
+	height: 0px;
+	margin: 10px 10px 22px;
+	float: left;
+}
+
+/*
+*********************************
+* =nav 
+*********************************
+*/
+
+nav {
+	float: right;
+	padding-top: 20px;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	text-transform: lowercase;
+}
+
+/*
+*********************************
+* =banner 
+*********************************
+*/
+
+.banner {
+	background: url(../img/background.png) no-repeat;
+	width: 695px;
+	height: 231px;
+}
+
+.callout {
+	background: black;
+	height: 231px;
+}
+
+/*
+*********************************
+* =main 
+*********************************
+*/
+
+.main {
+	margin-top: 40px;
+}
+
+blockquote {
+	position: relative;
+}
+
+.main blockquote p {
+	padding-left: 30px;
+}
+
+.main blockquote p:first-child:before,
+.main blockquote p:last-child:after {
+	font-size: 40px;
+	color: #bfbfbf;
+	font-style: italic;
+}
+
+.main blockquote p:first-child:before {
+	content: '“';
+	position: absolute;
+	top: 7px;
+	left: 0;
+}
+
+.main blockquote p:last-child:after {
+	content: '”';
+	float: right;
+	position: absolute;
+	bottom: -7px;
+	right: 0px;
+}
+
+/*
+*********************************
+* =second_banner 
+*********************************
+*/
+
+.calloutt {
+	background: url(../img/workimg.png) no-repeat;
+	width: 929px;
+	height: 228px;
+	margin-left: 10px;
+}
+
+/*
+*********************************
+* ==work 
+*********************************
+*/
+
+.work h2, 
+.work h4 {
+	font-weight: normal;
+	font-size: 26px;
+}
+
+.work h2 {
+	margin-bottom: 0px;
+}
+
+.work {
+	margin-top: 22px;
+}
+
+.work h4 {
+	color: #787878;
+	line-height: 1.2em;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 33px;
+	margin-bottom: 30px;
+}
+
+
